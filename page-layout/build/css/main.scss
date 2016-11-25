@@ -1,0 +1,8 @@
+@import "partials/variables";
+@import "partials/basics";
+@import "partials/nav";
+@import "partials/content";
+
+@media (max-width: 900px) {
+	@import "partials/mobile";	
+}

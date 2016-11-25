@@ -1,0 +1,26 @@
+// nav
+.nav {
+	display: block;
+	padding: 16px 0 0 0;
+	ul.tabs {
+		padding: 0;
+		display: inline; 
+		li {
+			display: inline-block;
+			list-style: none;
+			float: left;
+			a {
+				display: inline-block;
+				text-decoration: none;
+				color: $light;
+				padding: 0 15px 12px 15px;
+				border-bottom: 4px solid $lighter;
+				&.active, &:hover {
+					border-bottom: 4px solid $water;
+					font-weight: bold;
+					color: $primary;  
+				}
+			}
+		}
+	}	
+}

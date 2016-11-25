@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0; 
+}
+.container {
+	width: 89%;
+}
+h1 {
+  font-size: 54px;
+  line-height: 57px;
+  padding: 0 0 12px 0;
+  margin: 0;
+}
+.col, .two-wide .col {
+  width: 100%;
+  padding: 12px 0 0 0;
+}
+
+// nav
+.nav.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  ul.tabs {
+  	li {
+			width: 33.33333%;
+  		a {
+				padding: 0 0 12px;
+				width: 100%;
+				text-align: center;
+  		}
+  	}
+  }
+}
+
+// content
+#related {
+	.right, .left {
+		width: 100%;
+		padding: 0; 
+	}
+}

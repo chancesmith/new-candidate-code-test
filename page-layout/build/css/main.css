@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #575757; }
+
+.clear {
+  clear: both; }
+
+.container {
+  width: 900px;
+  margin: 0 auto; }
+
+.row {
+  margin: 0; }
+
+h1 {
+  font-size: 54px;
+  line-height: 57px; }
+
+.content {
+  clear: both;
+  padding: 18px 0 0 0; }
+  .content h2 {
+    font-size: 16px;
+    line-height: 0; }
+
+.col {
+  width: 100%;
+  float: left; }
+  .col .left, .col .right {
+    float: left; }
+  .col .left {
+    width: 20%; }
+  .col .right {
+    width: 75%;
+    padding: 0 0 0 5%; }
+
+.two-wide {
+  width: 100%; }
+  .two-wide .col {
+    width: 50%; }
+
+.img-res {
+  display: block;
+  max-width: 100% !important;
+  height: auto; }
+
+.img-rounded {
+  border-radius: 5px; }
+
+.img-circle {
+  border-radius: 50%; }
+
+.nav {
+  display: block;
+  padding: 16px 0 0 0; }
+  .nav ul.tabs {
+    padding: 0;
+    display: inline; }
+    .nav ul.tabs li {
+      display: inline-block;
+      list-style: none;
+      float: left; }
+      .nav ul.tabs li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #ccc;
+        padding: 0 15px 12px 15px;
+        border-bottom: 4px solid #eaeaea; }
+        .nav ul.tabs li a.active, .nav ul.tabs li a:hover {
+          border-bottom: 4px solid #61bb82;
+          font-weight: bold;
+          color: #575757; }
+
+.content {
+  display: none; }
+  .content.active {
+    display: block; }
+
+#info .details h3 {
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 0;
+  margin: 30px 0 -6px 0; }
+#info .details p {
+  color: #61bb82; }
+
+#related .details h3 {
+  color: #575757;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 1.2em;
+  margin: 0 0 -5px 0; }
+#related .details p {
+  color: #575757;
+  font-size: 14px;
+  line-height: 1em;
+  margin: 19px 0 7px 0; }
+#related hr {
+  margin: 21px 0;
+  border: 1px solid #eee; }
+#related .row {
+  border-bottom: 1px solid #eaeaea;
+  overflow: hidden;
+  padding: 19px 0; }
+
+@media (max-width: 900px) {
+  body {
+    margin: 0;
+    padding: 0; }
+
+  .container {
+    width: 89%; }
+
+  h1 {
+    font-size: 54px;
+    line-height: 57px;
+    padding: 0 0 12px 0;
+    margin: 0; }
+
+  .col, .two-wide .col {
+    width: 100%;
+    padding: 12px 0 0 0; }
+
+  .nav.container {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .nav.container ul.tabs li {
+      width: 33.33333%; }
+      .nav.container ul.tabs li a {
+        padding: 0 0 12px;
+        width: 100%;
+        text-align: center; }
+
+  #related .right, #related .left {
+    width: 100%;
+    padding: 0; } }
+
+/*# sourceMappingURL=main.css.map */

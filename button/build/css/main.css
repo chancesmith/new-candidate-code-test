@@ -1,0 +1,35 @@
+img {
+	display: block;
+}
+
+.fav {
+	display: inline-block;
+	padding: .5em;
+	background: #c7c7c7;
+	border: 2px solid #555;
+	border-radius: 15px;
+	box-shadow: inset 0 0 3px 4px rgba(255,255,255,.8);
+}
+.fav span:before, .fav span:after {
+	content: "\2605";
+	color: #888888;
+	display: inline-block;
+	margin: .16em 0.5em 0;
+}
+.fav span {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 23px;
+	font-family: sans-serif;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255, .6);
+	color: #4d4d4f;
+	border-radius: 8px;
+	background: #e0e0e0;
+	background: -webkit-linear-gradient(top, #e0e0e0 0%,#e0e0e0 50%,#c6c6c7 50%,#c6c6c7 100%);
+	background: linear-gradient(to bottom, #e0e0e0 50%,#c6c6c7 50%,#c6c6c7 100%);
+  padding: 0.76em 0.4em;
+  box-shadow: 0 1px 4px rgba(0,0,0,.75);
+}
